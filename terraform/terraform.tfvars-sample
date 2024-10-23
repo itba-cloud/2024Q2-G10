@@ -1,0 +1,17 @@
+# AWS Region
+region = "us-east-1"
+
+# VPC Parameters
+vpc_lambda_subnet_count = 2
+vpc_rds_subnet_count    = 2
+
+# RDS Parameters
+rds_db_username = "postgres"
+rds_db_password = "postgres"
+rds_secret_name = MUST BE UNIQUE FOR EVERYONE!!!! (e.g. "planty-db-secret-yourname")
+
+# S3 parameters
+s3_bucket_name  = MUST BE UNIQUE FOR EVERYONE!!!! (e.g. "itba-cloudcomputing-2024q1-g10-yourname")
+
+# Cognito
+cognito_user_pool_domain = MUST BE UNIQUE FOR EVERYONE!!!! (e.g. "planty-user-pool-domain-yourname")
